@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage
+Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage

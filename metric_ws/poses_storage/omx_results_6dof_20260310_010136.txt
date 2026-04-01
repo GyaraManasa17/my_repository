@@ -1,0 +1,32 @@
+
+============================================================
+TRUE WORKSPACE METRICS
+============================================================
+
+DOF: 6
+
+Attempted Samples: 10000
+Valid FK Results: 10000
+
+FK Success Rate: 100.00 %
+
+------------------------------------------------------------
+
+X Range: [-0.3945, 0.4167]
+Y Range: [-0.4075, 0.4044]
+Z Range: [-0.2355, 0.4730]
+
+Max Reach: 0.4738 m
+
+Bounding Box Volume: 0.4666 m^3
+Bounding Density: 21429.42
+
+Convex Hull Volume: 0.2505 m^3
+Convex Surface Area: 1.9449
+
+Alpha Shape Volume: 0.2473 m^3
+Alpha Surface Area: 1.9520
+
+Alpha Density: 40442.26
+
+============================================================

@@ -1,0 +1,11 @@
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/uninstall.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/database_storage_uninstall.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/store.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/store_joints.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/test.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/edit_cache.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/list_install_components.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/install.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/install/local.dir
+/home/ubuntu/metric_ws/build/database_storage/CMakeFiles/install/strip.dir

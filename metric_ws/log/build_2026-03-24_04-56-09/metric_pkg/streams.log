@@ -1,0 +1,36 @@
+[2.598s] Invoking command in '/home/ubuntu/metric_ws/src/metric_pkg': PYTHONPATH=/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/metric_pkg build --build-base /home/ubuntu/metric_ws/build/metric_pkg/build install --record /home/ubuntu/metric_ws/build/metric_pkg/install.log --single-version-externally-managed install_data
+[3.078s] running egg_info
+[3.106s] writing ../../build/metric_pkg/metric_pkg.egg-info/PKG-INFO
+[3.138s] writing dependency_links to ../../build/metric_pkg/metric_pkg.egg-info/dependency_links.txt
+[3.139s] writing entry points to ../../build/metric_pkg/metric_pkg.egg-info/entry_points.txt
+[3.140s] writing requirements to ../../build/metric_pkg/metric_pkg.egg-info/requires.txt
+[3.140s] writing top-level names to ../../build/metric_pkg/metric_pkg.egg-info/top_level.txt
+[3.215s] reading manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[3.217s] adding license file 'LICENSE'
+[3.218s] writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[3.218s] running build
+[3.218s] running build_py
+[3.222s] running install
+[3.230s] running install_lib
+[3.267s] running install_data
+[3.270s] running install_egg_info
+[3.307s] removing '/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[3.307s] Copying ../../build/metric_pkg/metric_pkg.egg-info to /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info
+[3.310s] running install_scripts
+[3.523s] Installing analyze_script script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.545s] Installing benchmark_node script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.546s] Installing demo2 script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.547s] Installing efficiency script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.548s] Installing joint_space script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.549s] Installing new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.550s] Installing pose_constraint script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.550s] Installing pose_generator script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.550s] Installing pose_generator_5dof script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.551s] Installing pose_generator_new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.551s] Installing pose_limits script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.552s] Installing pose_modified script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.552s] Installing poses script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.553s] Installing results script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.554s] Installing scene_builder script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[3.555s] writing list of installed files to '/home/ubuntu/metric_ws/build/metric_pkg/install.log'
+[3.608s] Invoked command in '/home/ubuntu/metric_ws/src/metric_pkg' returned '0': PYTHONPATH=/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/metric_pkg build --build-base /home/ubuntu/metric_ws/build/metric_pkg/build install --record /home/ubuntu/metric_ws/build/metric_pkg/install.log --single-version-externally-managed install_data

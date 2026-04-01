@@ -1,0 +1,34 @@
+============================================================
+ 🎯 REAL-ROBOT HARDWARE VALIDATION & KINEMATIC METRICS
+============================================================
+Total Test Poses:           40
+Iterations per Pose:        3
+Total Execution Attempts:   120
+Successful Executions:      72
+Hardware Success Rate:      60.00%
+------------------------------------------------------------
+📏 CARTESIAN POSITIONING (Accuracy)
+------------------------------------------------------------
+Mean Euclidean Error:       105.2459 mm
+Max Euclidean Error:        257.8612 mm
+Min Euclidean Error:         0.0000 mm
+------------------------------------------------------------
+🔄 REPEATABILITY (Precision)
+------------------------------------------------------------
+Mean Spatial Std Dev:       ±0.2102 mm
+Max Spatial Std Dev:        ±1.1343 mm
+------------------------------------------------------------
+📐 ORIENTATION FIDELITY
+------------------------------------------------------------
+Mean Angular Error:         16.4627°
+Max Angular Error:          48.3652°
+------------------------------------------------------------
+⚠️ FAILURE ANALYSIS
+------------------------------------------------------------
+Total Failures:             48
+Safety Blocks (Limits):     6
+Safety Blocks (Orient/Jump):42
+Safety Blocks (Collision):  0
+Hardware Rejections:        0
+FK Computation Failures:    0
+============================================================

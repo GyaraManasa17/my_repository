@@ -1,0 +1,9 @@
+IEEE Statistical Analysis Report
+================================
+
+success: F=19.561, p=0.0000, eta²=0.062 → statistically significant
+planning_time: F=1.586, p=0.2056, eta²=0.005 → not statistically significant
+wall_time: F=1.588, p=0.2053, eta²=0.005 → not statistically significant
+path_length_joint: F=18.539, p=0.0000, eta²=0.058 → statistically significant
+trajectory_duration: F=20.037, p=0.0000, eta²=0.063 → statistically significant
+elapsed_time_sec: F=125.074, p=0.0000, eta²=0.295 → statistically significant

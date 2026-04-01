@@ -1,0 +1,29 @@
+[0.068s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+[0.415s] [ 25%] [32mBuilding CXX object CMakeFiles/store_joints.dir/src/storing_joints.cpp.o[0m
+[0.421s] [ 75%] Built target store
+[11.288s] [100%] [32m[1mLinking CXX executable store_joints[0m
+[11.827s] [100%] Built target store_joints
+[11.854s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+[11.885s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage
+[11.902s] -- Install configuration: ""
+[11.904s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store
+[11.905s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints
+[11.911s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints" to ""
+[11.911s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch
+[11.912s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch/run_benchmark.launch.py
+[11.913s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/package_run_dependencies/database_storage
+[11.913s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/parent_prefix_path/database_storage
+[11.914s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.sh
+[11.915s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.dsv
+[11.916s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.sh
+[11.917s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.dsv
+[11.918s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.bash
+[11.918s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.sh
+[11.918s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.zsh
+[11.919s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.dsv
+[11.919s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.dsv
+[11.919s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/packages/database_storage
+[11.921s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig.cmake
+[11.922s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig-version.cmake
+[11.922s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.xml
+[11.927s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage

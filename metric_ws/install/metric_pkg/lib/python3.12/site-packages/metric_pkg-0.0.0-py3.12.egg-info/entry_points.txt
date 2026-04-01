@@ -1,0 +1,16 @@
+[console_scripts]
+analyze_script = metric_pkg.analyze:main
+benchmark_node = metric_pkg.node:main
+demo2 = metric_pkg.demo2:main
+efficiency = metric_pkg.metrics_for_efficiency:main
+joint_space = metric_pkg.joint:main
+new = metric_pkg.new:main
+pose_constraint = metric_pkg.pose:main
+pose_generator = metric_pkg.pose_generator_6dof:main
+pose_generator_5dof = metric_pkg.pose_generator_5dof:main
+pose_generator_new = metric_pkg.poses_generator_new:main
+pose_limits = metric_pkg.pose_limits:main
+pose_modified = metric_pkg.metrics:main
+poses = metric_pkg.poses_generate_6dof:main
+results = metric_pkg.results:main
+scene_builder = metric_pkg.scene:main

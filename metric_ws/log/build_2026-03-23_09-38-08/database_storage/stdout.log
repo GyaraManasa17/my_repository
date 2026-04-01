@@ -1,0 +1,22 @@
+[ 50%] Built target store_joints
+[100%] Built target store
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch/run_benchmark.launch.py
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/package_run_dependencies/database_storage
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/parent_prefix_path/database_storage
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.sh
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.dsv
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.bash
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.sh
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.zsh
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.dsv
+-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.dsv
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/packages/database_storage
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig.cmake
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig-version.cmake
+-- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.xml

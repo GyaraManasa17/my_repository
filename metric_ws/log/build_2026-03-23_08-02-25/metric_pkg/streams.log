@@ -1,0 +1,39 @@
+[2.291s] Invoking command in '/home/ubuntu/metric_ws/src/metric_pkg': PYTHONPATH=/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/metric_pkg build --build-base /home/ubuntu/metric_ws/build/metric_pkg/build install --record /home/ubuntu/metric_ws/build/metric_pkg/install.log --single-version-externally-managed install_data
+[3.595s] running egg_info
+[3.689s] writing ../../build/metric_pkg/metric_pkg.egg-info/PKG-INFO
+[3.691s] writing dependency_links to ../../build/metric_pkg/metric_pkg.egg-info/dependency_links.txt
+[3.692s] writing entry points to ../../build/metric_pkg/metric_pkg.egg-info/entry_points.txt
+[3.694s] writing requirements to ../../build/metric_pkg/metric_pkg.egg-info/requires.txt
+[3.695s] writing top-level names to ../../build/metric_pkg/metric_pkg.egg-info/top_level.txt
+[3.875s] reading manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[3.878s] adding license file 'LICENSE'
+[3.880s] writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[3.881s] running build
+[3.881s] running build_py
+[3.882s] copying metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[3.893s] running install
+[3.916s] running install_lib
+[4.013s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.020s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_limits.py to pose_limits.cpython-312.pyc
+[4.027s] running install_data
+[4.027s] running install_egg_info
+[4.103s] removing '/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[4.105s] Copying ../../build/metric_pkg/metric_pkg.egg-info to /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info
+[4.117s] running install_scripts
+[4.568s] Installing analyze_script script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.569s] Installing benchmark_node script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.569s] Installing demo2 script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.569s] Installing efficiency script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.570s] Installing joint_space script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.576s] Installing new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.577s] Installing pose_constraint script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.577s] Installing pose_generator script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.577s] Installing pose_generator_5dof script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.577s] Installing pose_generator_new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.577s] Installing pose_limits script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.577s] Installing pose_modified script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.578s] Installing poses script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.578s] Installing results script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.578s] Installing scene_builder script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.580s] writing list of installed files to '/home/ubuntu/metric_ws/build/metric_pkg/install.log'
+[4.668s] Invoked command in '/home/ubuntu/metric_ws/src/metric_pkg' returned '0': PYTHONPATH=/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/metric_pkg build --build-base /home/ubuntu/metric_ws/build/metric_pkg/build install --record /home/ubuntu/metric_ws/build/metric_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,32 @@
+============================================================
+ 🎯 REAL-ROBOT HARDWARE VALIDATION METRICS (RESEARCH FORMAT)
+============================================================
+Total Target Executions:        120
+Sim-to-Real Feasibility Rate:   100.00% (Passed Planning)
+Strict Execution Success Rate:  55.00% (Error < 5mm)
+Orientation Constraint Success: 100.00% (Error < 5°)
+------------------------------------------------------------
+📏 SIM-TO-REAL CARTESIAN GAP (Accuracy)
+------------------------------------------------------------
+Mean Euclidean Gap:              0.3957 mm
+Max Euclidean Gap:               1.1443 mm
+------------------------------------------------------------
+🗺 REGIONAL CAPABILITY (Boundary vs Interior)
+------------------------------------------------------------
+Boundary Mean Error:             0.5805 mm
+Interior Mean Error:             0.2417 mm
+Boundary Success Rate:            83.33 %
+Interior Success Rate:            42.86 %
+------------------------------------------------------------
+🔄 HARDWARE REPEATABILITY (Precision)
+------------------------------------------------------------
+Mean Spatial Std Dev:           ±0.0390 mm
+------------------------------------------------------------
+📐 6-DOF ORIENTATION FIDELITY
+------------------------------------------------------------
+Mean Angular Error:              0.0941°
+------------------------------------------------------------
+⏱ KINEMATIC PERFORMANCE
+------------------------------------------------------------
+Average Trajectory Exec Time:     4.227 sec
+============================================================

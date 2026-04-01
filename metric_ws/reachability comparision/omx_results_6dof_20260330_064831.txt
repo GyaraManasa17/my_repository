@@ -1,0 +1,22 @@
+============================================================
+ 🎯 TRUE GEOMETRIC REACHABILITY LIMITS & METRICS
+============================================================
+Attempted Samples:          8000
+Collision-Free FK Calls:    7239
+Valid Feasible Rate:        90.49%
+------------------------------------------------------------
+📏 X Extents:[ -0.3952 ,  0.4165 ] m
+📏 Y Extents:[ -0.4096 ,  0.4011 ] m
+📏 Z Extents:[ -0.2315 ,  0.4727 ] m
+------------------------------------------------------------
+🌍 Max Radial Reach:        0.4736 m
+🧊 Bounding Box Volume:     0.4633 m³
+📊 Bounding Box Density:   15623.22 poses/m³
+------------------------------------------------------------
+🔺 Convex Hull Volume:      0.2477 m³ (Overestimated limits)
+🔺 Convex Area:             1.9326 m²
+------------------------------------------------------------
+🧬 Alpha Shape Volume:      0.2444 m³ (Exact via Concave Hull)
+🌐 Alpha Shape Area:        1.9423 m²
+📊 Alpha Shape Density:    29616.65 poses/m³
+============================================================

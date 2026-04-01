@@ -1,0 +1,36 @@
+tasks:
+  - name: peg_keyed_insertion
+    goal_pose:
+      position:
+        x: 0.30
+        y: 0.00
+        z: 0.20
+      orientation:
+        x: 0.0
+        y: 0.7071
+        z: 0.0
+        w: 0.7071
+
+  - name: tool_alignment
+    goal_pose:
+      position:
+        x: 0.35
+        y: 0.10
+        z: 0.15
+      orientation:
+        x: 0.0
+        y: 0.0
+        z: 0.7071
+        w: 0.7071
+
+  - name: slot_insertion
+    goal_pose:
+      position:
+        x: 0.25
+        y: -0.05
+        z: 0.18
+      orientation:
+        x: 0.0
+        y: 0.9239
+        z: 0.3827
+        w: 0.0
