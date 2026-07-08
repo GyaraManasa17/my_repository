@@ -1,0 +1,2 @@
+trial,success,planning_time,wall_time,path_length,traj_duration,timestamp,start_state,goal_xyz
+0,False,0.0,5.047344446182251,0.0,0.0,2026-02-23T08:21:33.142094+00:00,"[0.0, 0.0, 0.0, 0.0]","[0.1782190409756187, 0.1398658252004626, 0.3217518171362244]"

@@ -1,0 +1,102 @@
+[3.338s] Invoking command in '/home/ubuntu/metric_ws/src/metric_pkg': PYTHONPATH=/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/metric_pkg build --build-base /home/ubuntu/metric_ws/build/metric_pkg/build install --record /home/ubuntu/metric_ws/build/metric_pkg/install.log --single-version-externally-managed install_data
+[3.992s] running egg_info
+[3.992s] creating ../../build/metric_pkg/metric_pkg.egg-info
+[4.035s] writing ../../build/metric_pkg/metric_pkg.egg-info/PKG-INFO
+[4.036s] writing dependency_links to ../../build/metric_pkg/metric_pkg.egg-info/dependency_links.txt
+[4.037s] writing entry points to ../../build/metric_pkg/metric_pkg.egg-info/entry_points.txt
+[4.038s] writing requirements to ../../build/metric_pkg/metric_pkg.egg-info/requires.txt
+[4.039s] writing top-level names to ../../build/metric_pkg/metric_pkg.egg-info/top_level.txt
+[4.039s] writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[4.137s] reading manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[4.138s] adding license file 'LICENSE'
+[4.140s] writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+[4.140s] running build
+[4.141s] running build_py
+[4.141s] creating /home/ubuntu/metric_ws/build/metric_pkg/build
+[4.142s] creating /home/ubuntu/metric_ws/build/metric_pkg/build/lib
+[4.143s] creating /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.143s] copying metric_pkg/poses_generator_new.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.145s] copying metric_pkg/new.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.146s] copying metric_pkg/poses_generate_6dof.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.147s] copying metric_pkg/time_analysis.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.147s] copying metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.147s] copying metric_pkg/pose_generator_5dof.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.149s] copying metric_pkg/joint.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.149s] copying metric_pkg/workspace.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.149s] copying metric_pkg/demo2.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.150s] copying metric_pkg/node.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.151s] copying metric_pkg/results.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.151s] copying metric_pkg/pose.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.152s] copying metric_pkg/metrics.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.152s] copying metric_pkg/__init__.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.153s] copying metric_pkg/pose_generator_6dof.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.153s] copying metric_pkg/scene.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.154s] copying metric_pkg/metrics_for_efficiency.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.154s] copying metric_pkg/analyze.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+[4.155s] running install
+[4.167s] running install_lib
+[4.213s] creating /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.215s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/poses_generator_new.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.216s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/new.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.218s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/poses_generate_6dof.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.219s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/time_analysis.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.220s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.221s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_generator_5dof.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.222s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/joint.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.223s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/workspace.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.223s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/demo2.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.223s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/node.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.224s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/results.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.225s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.226s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/metrics.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.226s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/__init__.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.227s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_generator_6dof.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.228s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/scene.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.228s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/metrics_for_efficiency.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.231s] copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/analyze.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+[4.234s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/poses_generator_new.py to poses_generator_new.cpython-312.pyc
+[4.237s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/new.py to new.cpython-312.pyc
+[4.242s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/poses_generate_6dof.py to poses_generate_6dof.cpython-312.pyc
+[4.245s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/time_analysis.py to time_analysis.cpython-312.pyc
+[4.249s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_limits.py to pose_limits.cpython-312.pyc
+[4.255s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_generator_5dof.py to pose_generator_5dof.cpython-312.pyc
+[4.260s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/joint.py to joint.cpython-312.pyc
+[4.264s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/workspace.py to workspace.cpython-312.pyc
+[4.266s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/demo2.py to demo2.cpython-312.pyc
+[4.271s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/node.py to node.cpython-312.pyc
+[4.274s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/results.py to results.cpython-312.pyc
+[4.276s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose.py to pose.cpython-312.pyc
+[4.279s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/metrics.py to metrics.cpython-312.pyc
+[4.283s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/__init__.py to __init__.cpython-312.pyc
+[4.284s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_generator_6dof.py to pose_generator_6dof.cpython-312.pyc
+[4.285s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/scene.py to scene.cpython-312.pyc
+[4.288s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/metrics_for_efficiency.py to metrics_for_efficiency.cpython-312.pyc
+[4.294s] byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/analyze.py to analyze.cpython-312.pyc
+[4.297s] running install_data
+[4.297s] creating /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index
+[4.298s] creating /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index/resource_index
+[4.299s] creating /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index/resource_index/packages
+[4.300s] copying resource/metric_pkg -> /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index/resource_index/packages
+[4.301s] copying package.xml -> /home/ubuntu/metric_ws/install/metric_pkg/share/metric_pkg
+[4.301s] creating /home/ubuntu/metric_ws/install/metric_pkg/share/metric_pkg/config
+[4.303s] copying config/tasks.yaml -> /home/ubuntu/metric_ws/install/metric_pkg/share/metric_pkg/config
+[4.303s] running install_egg_info
+[4.357s] Copying ../../build/metric_pkg/metric_pkg.egg-info to /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info
+[4.362s] running install_scripts
+[4.691s] Installing analyze_script script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.692s] Installing benchmark_node script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.692s] Installing demo2 script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.693s] Installing efficiency script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.693s] Installing joint_space script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.693s] Installing new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.694s] Installing pose_constraint script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.695s] Installing pose_generator script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.695s] Installing pose_generator_5dof script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.696s] Installing pose_generator_new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.697s] Installing pose_limits script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.697s] Installing pose_modified script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.698s] Installing poses script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.698s] Installing results script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.699s] Installing scene_builder script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+[4.700s] writing list of installed files to '/home/ubuntu/metric_ws/build/metric_pkg/install.log'
+[4.768s] Invoked command in '/home/ubuntu/metric_ws/src/metric_pkg' returned '0': PYTHONPATH=/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/metric_pkg build --build-base /home/ubuntu/metric_ws/build/metric_pkg/build install --record /home/ubuntu/metric_ws/build/metric_pkg/install.log --single-version-externally-managed install_data

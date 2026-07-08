@@ -1,0 +1,78 @@
+[0.060s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/metric_ws/database_storage -DCMAKE_INSTALL_PREFIX=/home/ubuntu/metric_ws/install/database_storage
+[0.396s] -- The C compiler identification is GNU 13.3.0
+[1.118s] -- The CXX compiler identification is GNU 13.3.0
+[1.274s] -- Detecting C compiler ABI info
+[1.676s] -- Detecting C compiler ABI info - done
+[1.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.712s] -- Detecting C compile features
+[1.714s] -- Detecting C compile features - done
+[1.752s] -- Detecting CXX compiler ABI info
+[2.134s] -- Detecting CXX compiler ABI info - done
+[2.161s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.162s] -- Detecting CXX compile features
+[2.164s] -- Detecting CXX compile features - done
+[2.219s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.703s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.212s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.485s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.566s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.148s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.175s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.497s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[4.546s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.596s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.916s] -- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)
+[5.074s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[5.494s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[5.592s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[5.595s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.595s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.616s] -- Found moveit_ros_warehouse: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_warehouse/cmake)
+[6.005s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[6.114s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.564s] -- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[6.929s] -- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[7.178s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[8.333s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[8.512s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[8.514s] -- Checking for module 'libutf8proc'
+[8.557s] --   Found libutf8proc, version 3.0.0
+[8.670s] -- Found SASL2: 2.1.28 (found suitable version "2.1.28", minimum required is "2.0") 
+[9.213s] -- Configuring done (9.1s)
+[9.764s] -- Generating done (0.4s)
+[9.857s] -- Build files have been written to: /home/ubuntu/metric_ws/build/database_storage
+[9.921s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake /home/ubuntu/metric_ws/database_storage -DCMAKE_INSTALL_PREFIX=/home/ubuntu/metric_ws/install/database_storage
+[9.923s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+[10.167s] [ 25%] [32mBuilding CXX object CMakeFiles/store_joints.dir/src/storing_joints.cpp.o[0m
+[10.173s] [ 50%] [32mBuilding CXX object CMakeFiles/store.dir/src/store.cpp.o[0m
+[28.093s] [ 75%] [32m[1mLinking CXX executable store_joints[0m
+[28.201s] [100%] [32m[1mLinking CXX executable store[0m
+[28.702s] [100%] Built target store_joints
+[28.787s] [100%] Built target store
+[28.817s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+[28.852s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage
+[28.877s] -- Install configuration: ""
+[28.878s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store
+[28.881s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store" to ""
+[28.882s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints
+[28.886s] -- Set non-toolchain portion of runtime path of "/home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints" to ""
+[28.886s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch
+[28.887s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch/run_benchmark.launch.py
+[28.889s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/package_run_dependencies/database_storage
+[28.901s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/parent_prefix_path/database_storage
+[28.904s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.sh
+[28.906s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.dsv
+[28.908s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.sh
+[28.909s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.dsv
+[28.912s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.bash
+[28.913s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.sh
+[28.914s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.zsh
+[28.915s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.dsv
+[28.917s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.dsv
+[28.919s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/packages/database_storage
+[28.922s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig.cmake
+[28.926s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig-version.cmake
+[28.942s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.xml
+[29.056s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage

@@ -1,2 +1,6 @@
 planner_name,success_rate,failure_rate,avg_planning_time,planning_time_variance,avg_attempts,avg_states_explored,avg_node_count,avg_tree_depth,robustness_score
+<<<<<<< HEAD
 RRTConnect,0.9,0.09999999999999998,0.08412466955184937,0.05398463214187166,1.0,98.41,39.364,19.682,10.698280379751402
+=======
+RRTConnect,0.8,0.19999999999999996,0.04392213630676269,0.0021145716269461864,1.0,97.665,39.066,19.533,18.213635620478833
+>>>>>>> 8c5b3af330cb859a3328a6355f3b194c5318c1a7

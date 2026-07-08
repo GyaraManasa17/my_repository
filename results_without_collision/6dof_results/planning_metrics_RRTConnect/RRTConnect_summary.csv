@@ -1,0 +1,2 @@
+planner_name,success_rate,failure_rate,avg_planning_time,planning_time_variance,avg_attempts,avg_states_explored,avg_node_count,avg_tree_depth,robustness_score
+RRTConnect,1.0,0.0,0.052187207460403444,0.005413325082188454,1.0,110.605,44.242,22.121,19.161416892096288
