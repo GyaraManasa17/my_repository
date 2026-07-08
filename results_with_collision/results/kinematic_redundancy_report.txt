@@ -1,0 +1,46 @@
+
+📊 KINEMATIC REDUNDANCY & REACHABILITY VERIFICATION REPORT
+Timestamp:                 20260402_065946
+Total Poses Evaluated:     20000
+Total Computation Time:    0.02 seconds
+IK Solver Timeout:         50ms per pose
+Collisions Ignored:        Yes (Pure Kinematic Assessment)
+
+⚙️  BASELINE: 6-DOF SELF-REPRODUCTION (Solver Reliability)
+Total 6-DOF Poses Tested:  10000
+Successfully Reached:      9996
+Failed (IK Timeout/Sing):  4
+IK Solver Success Rate:    99.96%
+
+🚀 EXPERIMENTAL: 5-DOF TO 6-DOF BACKWARDS COMPATIBILITY
+Total 5-DOF Poses Tested:  10000
+Reached by 6-DOF (Shared): 9560
+Unreachable by 6-DOF:      440
+Shared Kinematic Space:    95.60%
+5-DOF Workspace missed by 6-DOF: 4.40%
+
+---
+📐 ADVANCED DEXTERITY, VOLUMETRICS, & IK PERFORMANCE
+                        [5-DOF]                 [6-DOF]
+IK Success Rate:        99.73%                 99.96%
+Avg IK Solve Time:      0.0138 sec            0.0138 sec
+Global Dexterity (GDI): 0.3821                  0.3745
+Singularity Ratio:      13.82%                 5.55%
+Convex Hull Volume:     0.0560 m³           0.0803 m³
+
+---
+🧠 PATH PLANNING & SEARCH EFFICIENCY (MoveIt)
+                        [5-DOF]                 [6-DOF]
+Plan Success Rate:      93.20%                 89.90%
+Avg Planning Time:      0.0762 sec            0.0793 sec
+Avg States Explored:    93.8                  98.8
+Avg Node Count:         37.5                  39.5
+
+---
+⚡ TRAJECTORY DYNAMICS & MOTION QUALITY
+                        [5-DOF]                 [6-DOF]
+Path Efficiency (0-1):  1.0557                  0.8847
+Joint Path Length:      2.23 rad               2.90 rad
+Motion Energy:          3.67 J                 5.58 J
+Smoothness (Jerk²):     79649382.26                 81472190564.22
+Exec Duration:          1.84 sec               2.04 sec

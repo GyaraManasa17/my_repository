@@ -1,0 +1,2 @@
+ik_success_rate,ik_failure_rate,ik_mean_time,ik_solution_count_mean,ik_singularity_rate,ik_residual_mean,ik_iterations_mean
+0.9981,0.0019000000000000128,0.007700802588462829,0.9981,0.0019,1.0000000000000002e-06,0.9981
