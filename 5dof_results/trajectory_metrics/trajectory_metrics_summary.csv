@@ -1,0 +1,2 @@
+success_rate,avg_joint_path_length,avg_cartesian_path_length,avg_path_efficiency,avg_curvature,avg_smoothness,avg_max_jerk,avg_max_acceleration,avg_motion_energy,avg_motion_cost,avg_trajectory_duration,avg_time_optimality
+0.924,2.2960516324199123,0.29623991898285834,0.9791910447070374,0.004579528183552195,15721133922.020079,1338972.0231352393,26.021522283071878,3.82147266689702,2.4333966788486676,1.8767037312532469,0.5194431764826075

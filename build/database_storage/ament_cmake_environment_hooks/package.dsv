@@ -1,0 +1,4 @@
+source;share/database_storage/local_setup.bash
+source;share/database_storage/local_setup.dsv
+source;share/database_storage/local_setup.sh
+source;share/database_storage/local_setup.zsh

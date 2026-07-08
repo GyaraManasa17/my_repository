@@ -1,0 +1,24 @@
+============================================================
+ 📊 KINEMATIC REDUNDANCY & REACHABILITY VERIFICATION REPORT
+============================================================
+Timestamp:                 20260330_073018
+Total Poses Evaluated:     14578
+Total Computation Time:    151.11 seconds
+IK Solver Timeout:         50ms per pose
+Collisions Ignored:        Yes (Pure Kinematic Assessment)
+------------------------------------------------------------
+ ⚙️  BASELINE: 5-DOF SELF-REPRODUCTION (Solver Reliability)
+------------------------------------------------------------
+Total 5-DOF Poses Tested:  7339
+Successfully Reached:      6908
+Failed (Singularities):    431
+IK Solver Success Rate:    94.13%
+------------------------------------------------------------
+ 🚀 EXPERIMENTAL: 6-DOF TO 5-DOF DEXTERITY MAPPING
+------------------------------------------------------------
+Total 6-DOF Poses Tested:  7239
+Reached by 5-DOF (Shared): 0
+Exclusive to 6-DOF (Lost): 7239
+Shared Kinematic Space:    0.00%
+Dexterity Expansion by 6th joint: 100.00%
+============================================================
