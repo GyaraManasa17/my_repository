@@ -1,0 +1,12 @@
+{
+    "sampling_duration_seconds": 116.336,
+    "target_samples": 10000,
+    "total_configurations_tested": 11053,
+    "valid_collision_free_poses": 10000,
+    "rejected_colliding_poses": 1053,
+    "reachability_ratio_percent": 90.47,
+    "collision_rejection_rate_percent": 9.53,
+    "fk_computation_attempts": 10000,
+    "fk_computation_successes": 10000,
+    "fk_success_rate_percent": 100.0
+}

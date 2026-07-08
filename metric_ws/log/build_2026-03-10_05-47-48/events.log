@@ -1,0 +1,481 @@
+[0.000000] (-) TimerEvent: {}
+[0.000780] (database_storage) JobQueued: {'identifier': 'database_storage', 'dependencies': OrderedDict()}
+[0.001027] (metric_pkg) JobQueued: {'identifier': 'metric_pkg', 'dependencies': OrderedDict()}
+[0.001168] (database_storage) JobStarted: {'identifier': 'database_storage'}
+[0.015840] (metric_pkg) JobStarted: {'identifier': 'metric_pkg'}
+[0.044406] (database_storage) JobProgress: {'identifier': 'database_storage', 'progress': 'cmake'}
+[0.054277] (database_storage) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/metric_ws/database_storage', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/metric_ws/install/database_storage'], 'cwd': '/home/ubuntu/metric_ws/build/database_storage', 'env': OrderedDict({'VNCDESKTOP': '82828077de5e:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-270-82828077de5e-terminator-0_TIME123002053', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '82828077de5e', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib:/home/ubuntu/omx_ws/install/simulation_interface/lib:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib:/home/ubuntu/omx_ws/install/open_manipulator_collision/lib:/home/ubuntu/omx_ws/install/om_spring_actuator_controller/lib:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster/lib:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/metric_ws/poses_storage', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-k7FvMnCl8a,guid=97ceb0f374bf9936780036bd69ae9ce8', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1235', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-M1OCL3', 'COLCON_PREFIX_PATH': '/home/ubuntu/metric_ws/install:/home/ubuntu/omx_ws/install', 'ROS_DISTRO': 'jazzy', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/82828077de5e:@/tmp/.ICE-unix/61,unix/82828077de5e:/tmp/.ICE-unix/61', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-M1OCL3/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:db92be61-8913-4e77-bdbc-e939231926b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/metric_ws/build/database_storage', 'RESOLUTION': '1440x900', 'PYTHONPATH': '/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/pickplace_action/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation_interface/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/openmanipulator_motion_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_bringup/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[0.097590] (-) TimerEvent: {}
+[0.198280] (-) TimerEvent: {}
+[0.303592] (-) TimerEvent: {}
+[0.396234] (database_storage) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.403897] (-) TimerEvent: {}
+[0.505160] (-) TimerEvent: {}
+[0.606055] (-) TimerEvent: {}
+[0.707174] (-) TimerEvent: {}
+[0.808199] (-) TimerEvent: {}
+[0.909406] (-) TimerEvent: {}
+[1.010726] (-) TimerEvent: {}
+[1.111923] (-) TimerEvent: {}
+[1.118625] (database_storage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.212230] (-) TimerEvent: {}
+[1.274311] (database_storage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.312709] (-) TimerEvent: {}
+[1.413847] (-) TimerEvent: {}
+[1.515030] (-) TimerEvent: {}
+[1.615957] (-) TimerEvent: {}
+[1.675799] (database_storage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.708273] (database_storage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.712480] (database_storage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.714519] (database_storage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.716253] (-) TimerEvent: {}
+[1.752085] (database_storage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.816586] (-) TimerEvent: {}
+[1.918640] (-) TimerEvent: {}
+[2.019526] (-) TimerEvent: {}
+[2.120377] (-) TimerEvent: {}
+[2.134532] (database_storage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.161889] (database_storage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.163124] (database_storage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.164538] (database_storage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.219308] (database_storage) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.220539] (-) TimerEvent: {}
+[2.321213] (-) TimerEvent: {}
+[2.422065] (-) TimerEvent: {}
+[2.522984] (-) TimerEvent: {}
+[2.624205] (-) TimerEvent: {}
+[2.703396] (database_storage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.724484] (-) TimerEvent: {}
+[2.825347] (-) TimerEvent: {}
+[2.926203] (-) TimerEvent: {}
+[3.026929] (-) TimerEvent: {}
+[3.127672] (-) TimerEvent: {}
+[3.213054] (database_storage) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.227960] (-) TimerEvent: {}
+[3.328689] (-) TimerEvent: {}
+[3.350728] (metric_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/metric_pkg', 'build', '--build-base', '/home/ubuntu/metric_ws/build/metric_pkg/build', 'install', '--record', '/home/ubuntu/metric_ws/build/metric_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/metric_ws/src/metric_pkg', 'env': {'VNCDESKTOP': '82828077de5e:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-270-82828077de5e-terminator-0_TIME123002053', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '82828077de5e', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib:/home/ubuntu/omx_ws/install/simulation_interface/lib:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib:/home/ubuntu/omx_ws/install/open_manipulator_collision/lib:/home/ubuntu/omx_ws/install/om_spring_actuator_controller/lib:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster/lib:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/metric_ws/poses_storage', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-k7FvMnCl8a,guid=97ceb0f374bf9936780036bd69ae9ce8', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1235', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-M1OCL3', 'COLCON_PREFIX_PATH': '/home/ubuntu/metric_ws/install:/home/ubuntu/omx_ws/install', 'ROS_DISTRO': 'jazzy', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/82828077de5e:@/tmp/.ICE-unix/61,unix/82828077de5e:/tmp/.ICE-unix/61', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-M1OCL3/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:db92be61-8913-4e77-bdbc-e939231926b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/metric_ws/build/metric_pkg', 'RESOLUTION': '1440x900', 'PYTHONPATH': '/home/ubuntu/metric_ws/build/metric_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/pickplace_action/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation_interface/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/openmanipulator_motion_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_bringup/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'QT_FONT_DPI': '96'}, 'shell': False}
+[3.428916] (-) TimerEvent: {}
+[3.485995] (database_storage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[3.529237] (-) TimerEvent: {}
+[3.566995] (database_storage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.629495] (-) TimerEvent: {}
+[3.671989] (database_storage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.729798] (-) TimerEvent: {}
+[3.769106] (database_storage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.830281] (-) TimerEvent: {}
+[3.931833] (-) TimerEvent: {}
+[4.008817] (metric_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.009859] (metric_pkg) StdoutLine: {'line': b'creating ../../build/metric_pkg/metric_pkg.egg-info\n'}
+[4.032102] (-) TimerEvent: {}
+[4.052290] (metric_pkg) StdoutLine: {'line': b'writing ../../build/metric_pkg/metric_pkg.egg-info/PKG-INFO\n'}
+[4.053171] (metric_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/metric_pkg/metric_pkg.egg-info/dependency_links.txt\n'}
+[4.054242] (metric_pkg) StdoutLine: {'line': b'writing entry points to ../../build/metric_pkg/metric_pkg.egg-info/entry_points.txt\n'}
+[4.055424] (metric_pkg) StdoutLine: {'line': b'writing requirements to ../../build/metric_pkg/metric_pkg.egg-info/requires.txt\n'}
+[4.056192] (metric_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/metric_pkg/metric_pkg.egg-info/top_level.txt\n'}
+[4.057152] (metric_pkg) StdoutLine: {'line': b"writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'\n"}
+[4.132400] (-) TimerEvent: {}
+[4.148921] (database_storage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.154489] (metric_pkg) StdoutLine: {'line': b"reading manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'\n"}
+[4.155346] (metric_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.157034] (metric_pkg) StdoutLine: {'line': b"writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'\n"}
+[4.157969] (metric_pkg) StdoutLine: {'line': b'running build\n'}
+[4.158299] (metric_pkg) StdoutLine: {'line': b'running build_py\n'}
+[4.158958] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/build/metric_pkg/build\n'}
+[4.159372] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/build/metric_pkg/build/lib\n'}
+[4.160299] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.161076] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/poses_generator_new.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.162333] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/new.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.163415] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/poses_generate_6dof.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.164793] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/time_analysis.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.165119] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.165211] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/pose_generator_5dof.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.165856] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/joint.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.166638] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/workspace.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.166870] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/demo2.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.167506] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/node.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.168121] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/results.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.168691] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/pose.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.169417] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/metrics.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.169937] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/__init__.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.170484] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/pose_generator_6dof.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.170967] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/scene.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.171486] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/metrics_for_efficiency.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.171699] (metric_pkg) StdoutLine: {'line': b'copying metric_pkg/analyze.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg\n'}
+[4.172359] (metric_pkg) StdoutLine: {'line': b'running install\n'}
+[4.176244] (database_storage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.184059] (metric_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[4.230254] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.232568] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/poses_generator_new.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.232961] (-) TimerEvent: {}
+[4.233878] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/new.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.235275] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/poses_generate_6dof.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.236954] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/time_analysis.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.237765] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.238873] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_generator_5dof.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.239500] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/joint.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.239933] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/workspace.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.240664] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/demo2.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.241121] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/node.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.241866] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/results.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.242618] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.243520] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/metrics.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.244185] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/__init__.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.244806] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_generator_6dof.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.245470] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/scene.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.245981] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/metrics_for_efficiency.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.249132] (metric_pkg) StdoutLine: {'line': b'copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/analyze.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg\n'}
+[4.251245] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/poses_generator_new.py to poses_generator_new.cpython-312.pyc\n'}
+[4.254718] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/new.py to new.cpython-312.pyc\n'}
+[4.259587] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/poses_generate_6dof.py to poses_generate_6dof.cpython-312.pyc\n'}
+[4.262331] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/time_analysis.py to time_analysis.cpython-312.pyc\n'}
+[4.266568] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_limits.py to pose_limits.cpython-312.pyc\n'}
+[4.272924] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_generator_5dof.py to pose_generator_5dof.cpython-312.pyc\n'}
+[4.277607] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/joint.py to joint.cpython-312.pyc\n'}
+[4.281029] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/workspace.py to workspace.cpython-312.pyc\n'}
+[4.283169] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/demo2.py to demo2.cpython-312.pyc\n'}
+[4.288646] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/node.py to node.cpython-312.pyc\n'}
+[4.292061] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/results.py to results.cpython-312.pyc\n'}
+[4.293520] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose.py to pose.cpython-312.pyc\n'}
+[4.296720] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/metrics.py to metrics.cpython-312.pyc\n'}
+[4.300646] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[4.301577] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_generator_6dof.py to pose_generator_6dof.cpython-312.pyc\n'}
+[4.302829] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/scene.py to scene.cpython-312.pyc\n'}
+[4.305766] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/metrics_for_efficiency.py to metrics_for_efficiency.cpython-312.pyc\n'}
+[4.311299] (metric_pkg) StdoutLine: {'line': b'byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/analyze.py to analyze.cpython-312.pyc\n'}
+[4.314202] (metric_pkg) StdoutLine: {'line': b'running install_data\n'}
+[4.314662] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index\n'}
+[4.315592] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index/resource_index\n'}
+[4.316418] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index/resource_index/packages\n'}
+[4.317296] (metric_pkg) StdoutLine: {'line': b'copying resource/metric_pkg -> /home/ubuntu/metric_ws/install/metric_pkg/share/ament_index/resource_index/packages\n'}
+[4.318026] (metric_pkg) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/metric_ws/install/metric_pkg/share/metric_pkg\n'}
+[4.318863] (metric_pkg) StdoutLine: {'line': b'creating /home/ubuntu/metric_ws/install/metric_pkg/share/metric_pkg/config\n'}
+[4.319888] (metric_pkg) StdoutLine: {'line': b'copying config/tasks.yaml -> /home/ubuntu/metric_ws/install/metric_pkg/share/metric_pkg/config\n'}
+[4.320969] (metric_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.333251] (-) TimerEvent: {}
+[4.374089] (metric_pkg) StdoutLine: {'line': b'Copying ../../build/metric_pkg/metric_pkg.egg-info to /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info\n'}
+[4.379475] (metric_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[4.433550] (-) TimerEvent: {}
+[4.497363] (database_storage) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[4.533845] (-) TimerEvent: {}
+[4.547216] (database_storage) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.597205] (database_storage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.634180] (-) TimerEvent: {}
+[4.708598] (metric_pkg) StdoutLine: {'line': b'Installing analyze_script script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.709308] (metric_pkg) StdoutLine: {'line': b'Installing benchmark_node script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.709681] (metric_pkg) StdoutLine: {'line': b'Installing demo2 script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.710545] (metric_pkg) StdoutLine: {'line': b'Installing efficiency script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.710816] (metric_pkg) StdoutLine: {'line': b'Installing joint_space script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.711028] (metric_pkg) StdoutLine: {'line': b'Installing new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.712057] (metric_pkg) StdoutLine: {'line': b'Installing pose_constraint script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.712375] (metric_pkg) StdoutLine: {'line': b'Installing pose_generator script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.712884] (metric_pkg) StdoutLine: {'line': b'Installing pose_generator_5dof script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.713912] (metric_pkg) StdoutLine: {'line': b'Installing pose_generator_new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.714459] (metric_pkg) StdoutLine: {'line': b'Installing pose_limits script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.715081] (metric_pkg) StdoutLine: {'line': b'Installing pose_modified script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.715300] (metric_pkg) StdoutLine: {'line': b'Installing poses script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.715841] (metric_pkg) StdoutLine: {'line': b'Installing results script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.716815] (metric_pkg) StdoutLine: {'line': b'Installing scene_builder script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg\n'}
+[4.717943] (metric_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/metric_ws/build/metric_pkg/install.log'\n"}
+[4.734424] (-) TimerEvent: {}
+[4.784672] (metric_pkg) CommandEnded: {'returncode': 0}
+[4.811203] (metric_pkg) JobEnded: {'identifier': 'metric_pkg', 'rc': 0}
+[4.834634] (-) TimerEvent: {}
+[4.917337] (database_storage) StdoutLine: {'line': b'-- Found tf2: 0.36.19 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[4.935087] (-) TimerEvent: {}
+[5.035744] (-) TimerEvent: {}
+[5.075200] (database_storage) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[5.135954] (-) TimerEvent: {}
+[5.236580] (-) TimerEvent: {}
+[5.337268] (-) TimerEvent: {}
+[5.438026] (-) TimerEvent: {}
+[5.494441] (database_storage) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[5.538367] (-) TimerEvent: {}
+[5.592965] (database_storage) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[5.596078] (database_storage) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.596491] (database_storage) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.616305] (database_storage) StdoutLine: {'line': b'-- Found moveit_ros_warehouse: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_warehouse/cmake)\n'}
+[5.638635] (-) TimerEvent: {}
+[5.739255] (-) TimerEvent: {}
+[5.839696] (-) TimerEvent: {}
+[5.940283] (-) TimerEvent: {}
+[6.006433] (database_storage) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options \n'}
+[6.040569] (-) TimerEvent: {}
+[6.114622] (database_storage) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[6.140972] (-) TimerEvent: {}
+[6.241652] (-) TimerEvent: {}
+[6.342554] (-) TimerEvent: {}
+[6.443458] (-) TimerEvent: {}
+[6.547821] (-) TimerEvent: {}
+[6.565354] (database_storage) StdoutLine: {'line': b'-- Found parameter_traits: 0.6.0 (/opt/ros/jazzy/share/parameter_traits/cmake)\n'}
+[6.648610] (-) TimerEvent: {}
+[6.749150] (-) TimerEvent: {}
+[6.849679] (-) TimerEvent: {}
+[6.929605] (database_storage) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.16 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[6.950660] (-) TimerEvent: {}
+[7.051376] (-) TimerEvent: {}
+[7.152164] (-) TimerEvent: {}
+[7.178986] (database_storage) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem \n'}
+[7.252665] (-) TimerEvent: {}
+[7.353964] (-) TimerEvent: {}
+[7.454820] (-) TimerEvent: {}
+[7.555619] (-) TimerEvent: {}
+[7.656268] (-) TimerEvent: {}
+[7.756976] (-) TimerEvent: {}
+[7.857823] (-) TimerEvent: {}
+[7.958725] (-) TimerEvent: {}
+[8.059622] (-) TimerEvent: {}
+[8.160311] (-) TimerEvent: {}
+[8.261088] (-) TimerEvent: {}
+[8.333312] (database_storage) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono \n'}
+[8.361362] (-) TimerEvent: {}
+[8.462151] (-) TimerEvent: {}
+[8.512964] (database_storage) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[8.514659] (database_storage) StdoutLine: {'line': b"-- Checking for module 'libutf8proc'\n"}
+[8.557653] (database_storage) StdoutLine: {'line': b'--   Found libutf8proc, version 3.0.0\n'}
+[8.562332] (-) TimerEvent: {}
+[8.663163] (-) TimerEvent: {}
+[8.670593] (database_storage) StdoutLine: {'line': b'-- Found SASL2: 2.1.28 (found suitable version "2.1.28", minimum required is "2.0") \n'}
+[8.763431] (-) TimerEvent: {}
+[8.864381] (-) TimerEvent: {}
+[8.965392] (-) TimerEvent: {}
+[9.066608] (-) TimerEvent: {}
+[9.167595] (-) TimerEvent: {}
+[9.213833] (database_storage) StdoutLine: {'line': b'-- Configuring done (9.1s)\n'}
+[9.273821] (-) TimerEvent: {}
+[9.375107] (-) TimerEvent: {}
+[9.476305] (-) TimerEvent: {}
+[9.577428] (-) TimerEvent: {}
+[9.678583] (-) TimerEvent: {}
+[9.765291] (database_storage) StdoutLine: {'line': b'-- Generating done (0.4s)\n'}
+[9.778917] (-) TimerEvent: {}
+[9.858231] (database_storage) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/metric_ws/build/database_storage\n'}
+[9.879320] (-) TimerEvent: {}
+[9.913069] (database_storage) CommandEnded: {'returncode': 0}
+[9.924148] (database_storage) JobProgress: {'identifier': 'database_storage', 'progress': 'build'}
+[9.924321] (database_storage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/metric_ws/build/database_storage', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/metric_ws/build/database_storage', 'env': OrderedDict({'VNCDESKTOP': '82828077de5e:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-270-82828077de5e-terminator-0_TIME123002053', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '82828077de5e', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib:/home/ubuntu/omx_ws/install/simulation_interface/lib:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib:/home/ubuntu/omx_ws/install/open_manipulator_collision/lib:/home/ubuntu/omx_ws/install/om_spring_actuator_controller/lib:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster/lib:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/metric_ws/poses_storage', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-k7FvMnCl8a,guid=97ceb0f374bf9936780036bd69ae9ce8', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1235', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-M1OCL3', 'COLCON_PREFIX_PATH': '/home/ubuntu/metric_ws/install:/home/ubuntu/omx_ws/install', 'ROS_DISTRO': 'jazzy', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/82828077de5e:@/tmp/.ICE-unix/61,unix/82828077de5e:/tmp/.ICE-unix/61', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-M1OCL3/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:db92be61-8913-4e77-bdbc-e939231926b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/metric_ws/build/database_storage', 'RESOLUTION': '1440x900', 'PYTHONPATH': '/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/pickplace_action/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation_interface/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/openmanipulator_motion_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_bringup/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[9.979693] (-) TimerEvent: {}
+[10.080365] (-) TimerEvent: {}
+[10.166724] (database_storage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/store_joints.dir/src/storing_joints.cpp.o\x1b[0m\n'}
+[10.173330] (database_storage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/store.dir/src/store.cpp.o\x1b[0m\n'}
+[10.180650] (-) TimerEvent: {}
+[10.281697] (-) TimerEvent: {}
+[10.382776] (-) TimerEvent: {}
+[10.483393] (-) TimerEvent: {}
+[10.584009] (-) TimerEvent: {}
+[10.684668] (-) TimerEvent: {}
+[10.788323] (-) TimerEvent: {}
+[10.891344] (-) TimerEvent: {}
+[10.991888] (-) TimerEvent: {}
+[11.092469] (-) TimerEvent: {}
+[11.193194] (-) TimerEvent: {}
+[11.293916] (-) TimerEvent: {}
+[11.394720] (-) TimerEvent: {}
+[11.495627] (-) TimerEvent: {}
+[11.596545] (-) TimerEvent: {}
+[11.697436] (-) TimerEvent: {}
+[11.798302] (-) TimerEvent: {}
+[11.899289] (-) TimerEvent: {}
+[12.000573] (-) TimerEvent: {}
+[12.101574] (-) TimerEvent: {}
+[12.202300] (-) TimerEvent: {}
+[12.302932] (-) TimerEvent: {}
+[12.403902] (-) TimerEvent: {}
+[12.504656] (-) TimerEvent: {}
+[12.605317] (-) TimerEvent: {}
+[12.706081] (-) TimerEvent: {}
+[12.806840] (-) TimerEvent: {}
+[12.907603] (-) TimerEvent: {}
+[13.008397] (-) TimerEvent: {}
+[13.110349] (-) TimerEvent: {}
+[13.211239] (-) TimerEvent: {}
+[13.311971] (-) TimerEvent: {}
+[13.413535] (-) TimerEvent: {}
+[13.514493] (-) TimerEvent: {}
+[13.615354] (-) TimerEvent: {}
+[13.716115] (-) TimerEvent: {}
+[13.817015] (-) TimerEvent: {}
+[13.917866] (-) TimerEvent: {}
+[14.018830] (-) TimerEvent: {}
+[14.119610] (-) TimerEvent: {}
+[14.220587] (-) TimerEvent: {}
+[14.321374] (-) TimerEvent: {}
+[14.422277] (-) TimerEvent: {}
+[14.523128] (-) TimerEvent: {}
+[14.623900] (-) TimerEvent: {}
+[14.724764] (-) TimerEvent: {}
+[14.825671] (-) TimerEvent: {}
+[14.926565] (-) TimerEvent: {}
+[15.027393] (-) TimerEvent: {}
+[15.128226] (-) TimerEvent: {}
+[15.228999] (-) TimerEvent: {}
+[15.329845] (-) TimerEvent: {}
+[15.430721] (-) TimerEvent: {}
+[15.531560] (-) TimerEvent: {}
+[15.632665] (-) TimerEvent: {}
+[15.733606] (-) TimerEvent: {}
+[15.834858] (-) TimerEvent: {}
+[15.935757] (-) TimerEvent: {}
+[16.036549] (-) TimerEvent: {}
+[16.137355] (-) TimerEvent: {}
+[16.238070] (-) TimerEvent: {}
+[16.339028] (-) TimerEvent: {}
+[16.440115] (-) TimerEvent: {}
+[16.551020] (-) TimerEvent: {}
+[16.652070] (-) TimerEvent: {}
+[16.752931] (-) TimerEvent: {}
+[16.854041] (-) TimerEvent: {}
+[16.954938] (-) TimerEvent: {}
+[17.055960] (-) TimerEvent: {}
+[17.157208] (-) TimerEvent: {}
+[17.259708] (-) TimerEvent: {}
+[17.360882] (-) TimerEvent: {}
+[17.461824] (-) TimerEvent: {}
+[17.562614] (-) TimerEvent: {}
+[17.663435] (-) TimerEvent: {}
+[17.764297] (-) TimerEvent: {}
+[17.865291] (-) TimerEvent: {}
+[17.966193] (-) TimerEvent: {}
+[18.067025] (-) TimerEvent: {}
+[18.167869] (-) TimerEvent: {}
+[18.268710] (-) TimerEvent: {}
+[18.369505] (-) TimerEvent: {}
+[18.470266] (-) TimerEvent: {}
+[18.571207] (-) TimerEvent: {}
+[18.671997] (-) TimerEvent: {}
+[18.772745] (-) TimerEvent: {}
+[18.873376] (-) TimerEvent: {}
+[18.973972] (-) TimerEvent: {}
+[19.074562] (-) TimerEvent: {}
+[19.175099] (-) TimerEvent: {}
+[19.311395] (-) TimerEvent: {}
+[19.412343] (-) TimerEvent: {}
+[19.513409] (-) TimerEvent: {}
+[19.617484] (-) TimerEvent: {}
+[19.719997] (-) TimerEvent: {}
+[19.821078] (-) TimerEvent: {}
+[19.922271] (-) TimerEvent: {}
+[20.022815] (-) TimerEvent: {}
+[20.123464] (-) TimerEvent: {}
+[20.224355] (-) TimerEvent: {}
+[20.325194] (-) TimerEvent: {}
+[20.426848] (-) TimerEvent: {}
+[20.527347] (-) TimerEvent: {}
+[20.724659] (-) TimerEvent: {}
+[20.825236] (-) TimerEvent: {}
+[20.925755] (-) TimerEvent: {}
+[21.026365] (-) TimerEvent: {}
+[21.127114] (-) TimerEvent: {}
+[21.227654] (-) TimerEvent: {}
+[21.328219] (-) TimerEvent: {}
+[21.429065] (-) TimerEvent: {}
+[21.529657] (-) TimerEvent: {}
+[21.630296] (-) TimerEvent: {}
+[21.730847] (-) TimerEvent: {}
+[21.831591] (-) TimerEvent: {}
+[21.932310] (-) TimerEvent: {}
+[22.033823] (-) TimerEvent: {}
+[22.134785] (-) TimerEvent: {}
+[22.235692] (-) TimerEvent: {}
+[22.336490] (-) TimerEvent: {}
+[22.437305] (-) TimerEvent: {}
+[22.538221] (-) TimerEvent: {}
+[22.638991] (-) TimerEvent: {}
+[22.739918] (-) TimerEvent: {}
+[22.842580] (-) TimerEvent: {}
+[22.943475] (-) TimerEvent: {}
+[23.044266] (-) TimerEvent: {}
+[23.145126] (-) TimerEvent: {}
+[23.245956] (-) TimerEvent: {}
+[23.346793] (-) TimerEvent: {}
+[23.447618] (-) TimerEvent: {}
+[23.548411] (-) TimerEvent: {}
+[23.649245] (-) TimerEvent: {}
+[23.751615] (-) TimerEvent: {}
+[23.852458] (-) TimerEvent: {}
+[23.953265] (-) TimerEvent: {}
+[24.054090] (-) TimerEvent: {}
+[24.154935] (-) TimerEvent: {}
+[24.255746] (-) TimerEvent: {}
+[24.356535] (-) TimerEvent: {}
+[24.457282] (-) TimerEvent: {}
+[24.558104] (-) TimerEvent: {}
+[24.658932] (-) TimerEvent: {}
+[24.759761] (-) TimerEvent: {}
+[24.860578] (-) TimerEvent: {}
+[24.961413] (-) TimerEvent: {}
+[25.062190] (-) TimerEvent: {}
+[25.162927] (-) TimerEvent: {}
+[25.263627] (-) TimerEvent: {}
+[25.364445] (-) TimerEvent: {}
+[25.465169] (-) TimerEvent: {}
+[25.565823] (-) TimerEvent: {}
+[25.666460] (-) TimerEvent: {}
+[25.767247] (-) TimerEvent: {}
+[25.868029] (-) TimerEvent: {}
+[25.969515] (-) TimerEvent: {}
+[26.070567] (-) TimerEvent: {}
+[26.171394] (-) TimerEvent: {}
+[26.272267] (-) TimerEvent: {}
+[26.373038] (-) TimerEvent: {}
+[26.474420] (-) TimerEvent: {}
+[26.574990] (-) TimerEvent: {}
+[26.675921] (-) TimerEvent: {}
+[26.776914] (-) TimerEvent: {}
+[26.877893] (-) TimerEvent: {}
+[26.989191] (-) TimerEvent: {}
+[27.097155] (-) TimerEvent: {}
+[27.197691] (-) TimerEvent: {}
+[27.298259] (-) TimerEvent: {}
+[27.398925] (-) TimerEvent: {}
+[27.500689] (-) TimerEvent: {}
+[27.601886] (-) TimerEvent: {}
+[27.702664] (-) TimerEvent: {}
+[27.803440] (-) TimerEvent: {}
+[27.904310] (-) TimerEvent: {}
+[28.005543] (-) TimerEvent: {}
+[28.093481] (database_storage) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable store_joints\x1b[0m\n'}
+[28.105762] (-) TimerEvent: {}
+[28.201791] (database_storage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable store\x1b[0m\n'}
+[28.205999] (-) TimerEvent: {}
+[28.306795] (-) TimerEvent: {}
+[28.407617] (-) TimerEvent: {}
+[28.508793] (-) TimerEvent: {}
+[28.611435] (-) TimerEvent: {}
+[28.702680] (database_storage) StdoutLine: {'line': b'[100%] Built target store_joints\n'}
+[28.711899] (-) TimerEvent: {}
+[28.787595] (database_storage) StdoutLine: {'line': b'[100%] Built target store\n'}
+[28.812162] (-) TimerEvent: {}
+[28.817378] (database_storage) CommandEnded: {'returncode': 0}
+[28.819790] (database_storage) JobProgress: {'identifier': 'database_storage', 'progress': 'install'}
+[28.852177] (database_storage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/metric_ws/build/database_storage'], 'cwd': '/home/ubuntu/metric_ws/build/database_storage', 'env': OrderedDict({'VNCDESKTOP': '82828077de5e:1 (ubuntu)', 'XDG_ACTIVATION_TOKEN': 'caja-270-82828077de5e-terminator-0_TIME123002053', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '82828077de5e', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib:/home/ubuntu/omx_ws/install/simulation_interface/lib:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib:/home/ubuntu/omx_ws/install/open_manipulator_collision/lib:/home/ubuntu/omx_ws/install/om_spring_actuator_controller/lib:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster/lib:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/metric_ws/poses_storage', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-k7FvMnCl8a,guid=97ceb0f374bf9936780036bd69ae9ce8', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1235', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-M1OCL3', 'COLCON_PREFIX_PATH': '/home/ubuntu/metric_ws/install:/home/ubuntu/omx_ws/install', 'ROS_DISTRO': 'jazzy', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'SESSION_MANAGER': 'local/82828077de5e:@/tmp/.ICE-unix/61,unix/82828077de5e:/tmp/.ICE-unix/61', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'XDG_CURRENT_DESKTOP': 'MATE', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SUPERVISOR_ENABLED': '1', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-M1OCL3/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'TERMINATOR_UUID': 'urn:uuid:db92be61-8913-4e77-bdbc-e939231926b7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CMAKE_MODULE_PATH': '/home/ubuntu/omx_ws/install/warehouse_ros_mongo/share/warehouse_ros_mongo/cmake', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/metric_ws/build/database_storage', 'RESOLUTION': '1440x900', 'PYTHONPATH': '/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/warehouse_ros_mongo/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/pickplace_action/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/srvcli/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation_interface/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/simulation/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/service_client_control_interfaces/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/openmanipulator_motion_control/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_teleop/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/open_manipulator_bringup/lib/python3.12/site-packages:/home/ubuntu/omx_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ubuntu/metric_ws/install/database_storage:/home/ubuntu/omx_ws/install/open_manipulator_moveit:/home/ubuntu/omx_ws/install/omx_moveit:/home/ubuntu/omx_ws/install/omx_5dof_moveit:/home/ubuntu/omx_ws/install/warehouse_ros_mongo:/home/ubuntu/omx_ws/install/srvcli_interfaces:/home/ubuntu/omx_ws/install/simulation_interface:/home/ubuntu/omx_ws/install/service_client_control_interfaces:/home/ubuntu/omx_ws/install/open_manipulator:/home/ubuntu/omx_ws/install/open_manipulator_playground:/home/ubuntu/omx_ws/install/open_manipulator_moveit_config:/home/ubuntu/omx_ws/install/open_manipulator_description:/home/ubuntu/omx_ws/install/open_manipulator_collision:/home/ubuntu/omx_ws/install/om_spring_actuator_controller:/home/ubuntu/omx_ws/install/om_joint_trajectory_command_broadcaster:/home/ubuntu/omx_ws/install/om_gravity_compensation_controller:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/metric_ws/install/metric_pkg:/home/ubuntu/omx_ws/install/pickplace_action:/home/ubuntu/omx_ws/install/srvcli:/home/ubuntu/omx_ws/install/simulation:/home/ubuntu/omx_ws/install/service_client_control:/home/ubuntu/omx_ws/install/openmanipulator_motion_control:/home/ubuntu/omx_ws/install/open_manipulator_teleop:/home/ubuntu/omx_ws/install/open_manipulator_bringup:/home/ubuntu/omx_ws/install/my_package:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[28.877593] (database_storage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.878819] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store\n'}
+[28.882272] (database_storage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store" to ""\n'}
+[28.882759] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints\n'}
+[28.886606] (database_storage) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints" to ""\n'}
+[28.887049] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch\n'}
+[28.887887] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch/run_benchmark.launch.py\n'}
+[28.890438] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/package_run_dependencies/database_storage\n'}
+[28.902312] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/parent_prefix_path/database_storage\n'}
+[28.904740] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.sh\n'}
+[28.906840] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.dsv\n'}
+[28.908210] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.sh\n'}
+[28.909566] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.dsv\n'}
+[28.912848] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.bash\n'}
+[28.913721] (-) TimerEvent: {}
+[28.914006] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.sh\n'}
+[28.914716] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.zsh\n'}
+[28.915659] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.dsv\n'}
+[28.917960] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.dsv\n'}
+[28.920209] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/packages/database_storage\n'}
+[28.922990] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig.cmake\n'}
+[28.927086] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig-version.cmake\n'}
+[28.942896] (database_storage) StdoutLine: {'line': b'-- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.xml\n'}
+[29.013978] (-) TimerEvent: {}
+[29.055956] (database_storage) CommandEnded: {'returncode': 0}
+[29.114395] (-) TimerEvent: {}
+[29.225102] (-) TimerEvent: {}
+[29.326094] (-) TimerEvent: {}
+[29.437584] (-) TimerEvent: {}
+[29.455124] (database_storage) JobEnded: {'identifier': 'database_storage', 'rc': 0}
+[29.461089] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.101s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+[0.449s] [ 50%] Built target store
+[0.453s] [100%] Built target store_joints
+[0.540s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/opt/ros/jazzy /usr/bin/cmake --build /home/ubuntu/metric_ws/build/database_storage -- -j12 -l12
+[0.597s] Invoking command in '/home/ubuntu/metric_ws/build/database_storage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage
+[0.624s] -- Install configuration: ""
+[0.630s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store
+[0.633s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/lib/database_storage/store_joints
+[0.636s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch
+[0.637s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/launch/run_benchmark.launch.py
+[0.640s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/package_run_dependencies/database_storage
+[0.641s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/parent_prefix_path/database_storage
+[0.642s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.sh
+[0.643s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/ament_prefix_path.dsv
+[0.644s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.sh
+[0.645s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/environment/path.dsv
+[0.645s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.bash
+[0.646s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.sh
+[0.646s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.zsh
+[0.646s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/local_setup.dsv
+[0.646s] -- Installing: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.dsv
+[0.649s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/ament_index/resource_index/packages/database_storage
+[0.651s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig.cmake
+[0.651s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/cmake/database_storageConfig-version.cmake
+[0.651s] -- Up-to-date: /home/ubuntu/metric_ws/install/database_storage/share/database_storage/package.xml
+[0.656s] Invoked command in '/home/ubuntu/metric_ws/build/database_storage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/new_ws/install/open_manipulator_teleop:/home/ubuntu/new_ws/install/open_manipulator_bringup:/home/ubuntu/new_ws/install/omx_planning_benchmark:/opt/ros/jazzy /usr/bin/cmake --install /home/ubuntu/metric_ws/build/database_storage

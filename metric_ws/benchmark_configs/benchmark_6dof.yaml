@@ -1,0 +1,45 @@
+/**:
+  ros__parameters:
+    benchmark_config:
+      parameters:
+        name: "6dof_arm_benchmark"
+        runs: 10                     # Number of repeated trials per query (for reliability)
+        group: "arm"                 # Your planning group
+        timeout: 5.0                 # Max planning time allowed
+        output_directory: "/tmp/benchmark_results_6dof"
+        queries: ".*"                # Regex to run all queries (pose_1 to pose_300)
+        start_states: ""             # Leave empty to use the start state saved in the query
+      warehouse:
+        host: "moveit_mongo"         # Must match your DB host
+        port: 27017
+        scene_name: "benchmark_scene_6dof"
+      planning_pipelines:
+        pipelines:
+          - ompl_pipeline            # 1. Define an identifier for the pipeline
+        ompl_pipeline:               # 2. Use that identifier to configure it
+          name: ompl                 # The actual pipeline name MoveIt recognizes
+          planners:
+            - RRTConnectkConfigDefault
+            - RRTstarkConfigDefault
+
+
+# /**:
+#   ros__parameters:
+#     benchmark_config:
+#       parameters:
+#         name: "6dof_arm_benchmark"
+#         runs: 10                     # 10 trials per query
+#         group: "arm"
+#         timeout: 5.0
+#         output_directory: "/tmp/benchmark_results_6dof"
+#         queries: ".*"
+#         start_states: ""
+#       warehouse:
+#         host: "moveit_mongo"
+#         port: 27017
+#         scene_name: "benchmark_scene_6dof"
+#       planning_pipelines:
+#         - name: ompl
+#           planners:
+#             - RRTConnectkConfigDefault
+#             - RRTstarkConfigDefault

@@ -1,0 +1,37 @@
+running egg_info
+writing ../../build/metric_pkg/metric_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/metric_pkg/metric_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/metric_pkg/metric_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/metric_pkg/metric_pkg.egg-info/requires.txt
+writing top-level names to ../../build/metric_pkg/metric_pkg.egg-info/top_level.txt
+reading manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/metric_pkg/metric_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg
+running install
+running install_lib
+copying /home/ubuntu/metric_ws/build/metric_pkg/build/lib/metric_pkg/pose_limits.py -> /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg
+byte-compiling /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg/pose_limits.py to pose_limits.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/metric_pkg/metric_pkg.egg-info to /home/ubuntu/metric_ws/install/metric_pkg/lib/python3.12/site-packages/metric_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing analyze_script script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing benchmark_node script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing demo2 script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing efficiency script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing joint_space script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing pose_constraint script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing pose_generator script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing pose_generator_5dof script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing pose_generator_new script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing pose_limits script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing pose_modified script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing poses script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing results script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+Installing scene_builder script to /home/ubuntu/metric_ws/install/metric_pkg/lib/metric_pkg
+writing list of installed files to '/home/ubuntu/metric_ws/build/metric_pkg/install.log'

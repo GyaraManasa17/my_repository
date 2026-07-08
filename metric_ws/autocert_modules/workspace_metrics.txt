@@ -1,0 +1,21 @@
+====================================
+WORKSPACE ANALYSIS REPORT
+====================================
+
+samples_total: 100
+samples_reachable: 100
+fk_success_rate: 1.0
+x_min: -0.20905074177721
+x_max: 0.2105873876987872
+y_min: -0.2117478959924505
+y_max: 0.2149949438295898
+z_min: -0.0538097667192995
+z_max: 0.3135508144014399
+max_reach: 0.3141019253450614
+bounding_box_volume: 0.06578603910459542
+convex_hull_volume: 0.035210548934374246
+convex_hull_area: 0.5613340325021625
+alpha_shape_volume: 0.03473245743460629
+alpha_shape_area: 0.5612968068429162
+bbox_density: 1520.0793566702907
+alpha_density: 2879.1513007185968
